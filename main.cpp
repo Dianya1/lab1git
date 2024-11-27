@@ -12,6 +12,9 @@ ifstream in("la.txt");
 void f1(){
 }
 void f2(){
+    for (auto& row : arr) {
+    cout << row[1] << endl; // Выводим "Значение"
+    }
 }
 void f3(){
 }
